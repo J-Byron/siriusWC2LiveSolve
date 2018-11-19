@@ -7,7 +7,7 @@ app.use( express.static( './server/public' ) );
 app.use( bodyParser.urlencoded( { extended: true } ) );
 
 // globals
-const port = processs.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
 let history = [];
 // spin up server
